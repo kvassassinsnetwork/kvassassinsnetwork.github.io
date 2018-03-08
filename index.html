@@ -1,11 +1,17 @@
-Kirksville Assassins Network
+<!DOCTYPE html>
+<html>
+<body>
 
-<form>
-  Target:<br>
-  <input type="radio" name="infotype" value="I know who ___ is targeting"><br>
-  <input type="radio" name="infotype" value="I know about an alliance"><br>
-  <input type="radio" name="infotype" value="I know who is targeting ___"><br>
-  <input type="radio" name="infotype" value="I know when ___ will be vulnerable to attack"><br>
-  <input type="radio" name="infotype" value="I know whether ___ is playing."><br>
-  <input type="radio" name="infotype" value="I know who ___ is targeting"><br>
+[Title]
+<?php
+echo "Logged in?";
+?>
+<form action="login.php" method="post">
+	Who are you? <br>
+	<input type="text" name="name"> <br>
+	<input type="submit" value="Submit">
 </form>
+
+
+</body>
+</html>
